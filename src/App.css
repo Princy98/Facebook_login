@@ -1,0 +1,198 @@
+/*.App {
+  text-align: center;
+}*/
+#log{
+  height:60px;
+  background-color:rgb(83, 135, 204);
+  text-align:center;
+  }
+  #log_in,#connect,#signup{
+  display:none;
+  }
+  #fb{
+  display:inline-block;
+  }
+  #fb a{
+  text-decoration:none;
+  font-family:Segoe UI Symbol;
+  font-size:165%;
+  font-weight:bold;
+  color:white;
+  }
+  #container{
+  background-color:rgb(247, 245, 212);
+  height:60px;
+  }
+  #container a{
+  text-decoration:none;
+  color:rgb(43, 95, 206);
+  text-align:center;
+  display:inline-block;
+  margin-top:15px;
+  font-size:110%;
+  }
+  #login{
+  text-align:center;
+  }
+  .cred{
+  float:center;
+  width:100%;
+  height:40px;
+  margin:auto;
+  padding-left:4px;
+  font-size:15px;
+  }
+  
+  #fb a{
+  left:50%;
+  }
+  .tip p{
+  display:none;
+  color:red;
+  }
+  #signup{
+  display:none;
+  }
+  #log{
+  height:10%;
+  background-color:rgb(83, 135, 204);
+  }
+  #fb{
+  margin : 10px 180px 10px 130px;
+  }
+  #fb a{
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  font-family:Segoe UI Symbol;
+  font-size:155%;
+  font-weight:bold;
+  }
+  #log_in{
+  float:right;
+  display:inline-block;
+  }
+  .tip{ 
+  margin-right:43px;
+  display:inline-block;
+  line-height:10%;
+  color:white;
+  font-size:13px;
+  word-spacing:10%;
+  }
+  .credential{
+  height:30%;
+  width:30%;
+  }
+  #subm{
+  border-color:rgb(83, 135, 204);
+  background-color:rgb(83, 135, 204);
+  color:white;
+  }
+  #forgot{
+  float:right;
+  margin-right:187px;
+  font-size:11px;
+  font-weight:normal;
+  color:lightgrey;
+  }
+  #container{
+  margin-left:130px;
+  }
+  #container a{
+  display:none;
+  }
+  #connect{
+  float:left;
+  display:inline-block;
+  }
+  #connect p{
+  font-size:130%;
+  width:75%;
+  color:rgb(43, 95, 206);
+  font-family:cambria math;
+  }
+  #connect img{
+  width:85%;
+  }
+  #signup{
+  display:inline-block;
+  width:40%;
+  margin-left:15%;
+  position:fixed;
+  }
+  #signup h1{
+  font-family:calibri;
+  }
+  .name{
+  height:4%;
+  }
+  .fields{
+  height:4%;
+  width:70%;
+  }
+  #date{
+  display:inline-block;
+  }
+  #bir{
+  font-weight:bold;
+  }
+  #signup a{
+  display:inline-block;
+  width:40%;
+  position:relative;
+  text-decoration:none;
+  color:rgb(43, 95, 206);
+  }
+  #policy{
+  font-size:80%;
+  width:65%;
+  color:rgb(43, 95, 206);
+  }
+  #policy a{
+  display:inline;
+  font-weight:bold;
+  }
+  #sign{
+  width:25%;
+  /*height:%;*/
+  border:none;
+  background-color:rgb(20, 188, 76);
+  color:white;
+  font-weight:bold;
+  border-radius:10%;
+  }
+  #login{
+  display:none;
+  }
+  
+  
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
